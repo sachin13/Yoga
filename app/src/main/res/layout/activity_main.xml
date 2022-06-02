@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C1"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/halasana"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/halasana"
+        android:src="@drawable/halasanaico"
+        app:layout_constraintCircle="@drawable/halasana"
+        app:layout_constraintEnd_toStartOf="@id/vipareet"
+        android:scaleType="fitCenter"
+        app:layout_constraintCircleRadius="0.5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/buttonshape"
+        />
+
+    <ImageButton
+        android:id="@+id/vipareet"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/vipareet_karani_mudra"
+        android:src="@drawable/viparee"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@id/vajrasana"
+        app:layout_constraintStart_toEndOf="@id/halasana"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/buttonshape"/>
+
+    <ImageButton
+        android:id="@+id/vajrasana"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/vajrasana"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toEndOf="@id/vipareet"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/vajrasana"
+        app:layout_constraintEnd_toStartOf="@id/bhujangasana"
+        android:background="@drawable/buttonshape"/>
+
+    <ImageButton
+        android:id="@+id/bhujangasana"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bhujangasan"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/bhujangasana"
+        app:layout_constraintStart_toEndOf="@id/vajrasana"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/buttonshape"/>
+
+    <ImageView
+        android:id="@+id/Yoga"
+        android:layout_width="303dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="52dp"
+        android:layout_marginRight="50sp"
+        android:contentDescription="@string/Yoga"
+        android:src="@drawable/yogaimg"
+        app:layout_constraintBottom_toTopOf="@id/Heading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vipareet" />
+
+    <TextView
+        android:id="@+id/Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Yoga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/Resulttv"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="10sp"
+        android:text="@string/heading1"
+        />
+    <TextView
+        android:id="@+id/Resulttv"
+        android:layout_width="354dp"
+        android:layout_height="209dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="10sp"
+        android:text="@string/Yoga"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Heading" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

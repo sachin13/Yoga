@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Yoga</string>
+    <string name="bhujangasana">Bhujangasana</string>
+    <string name="halasana">Halasana</string>
+    <string name="vajrasana">vajrasana</string>
+    <string name="vipareet_karani_mudra">Vipareet Karani Mudra</string>
+    <string name="Yoga">Yoga ( Sanskrit: योग,\'yoke\' or \'union\' pronounced) is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India and aim to control (yoke) and still the mind, recognizing a detached witness-consciousness untouched by the mind (Chitta) and mundane suffering (Duḥkha). Traditional and modern yoga is practiced worldwide.</string>
+    <string name="Halasanatext">Halasana or Plough pose is an inverted asana in hatha yoga and modern yoga as exercise. Its variations include Karnapidasana with the knees by the ears, and Supta Konasana with the feet wide apart.</string>
+    <string name="Vipareettext">Viparita Karani or legs up the wall pose is both an asana and a mudra in hatha yoga. In modern yoga as exercise, it is commonly a fully supported pose using a wall and sometimes a pile of blankets.</string>
+    <string name="Vajrasanatext">Vajrasana, Thunderbolt Pose, or Diamond Pose, is a kneeling asana in hatha yoga and modern yoga as exercise. Medieval texts describe a variety of poses under this name.</string>
+    <string name="Bhujangasanatext">Bhujangasana or Cobra Pose is a reclining back-bending asana in hatha yoga and modern yoga as exercise. It is commonly performed in a cycle of asanas in Surya Namaskar as an alternative to Urdhva Mukha Svanasana.</string>
+    <string name="heading1">Yoga</string>
+</resources>
